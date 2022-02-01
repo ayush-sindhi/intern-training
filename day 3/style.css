@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.outerbox {
+  max-width: 100;
+}
+.box {
+  border: 4px double rgb(53, 37, 37);
+  border-radius: 3px;
+  max-width: 100%;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  background-color: lightsalmon;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+.box > div {
+  background-color: lemonchiffon;
+  border: solid black;
+  margin: 5px;
+  height: 30px;
+  width: 70px;
+  font-size: 20px;
+  text-align: center;
+}
+.box > div:hover {
+  zoom: 1.2;
+}
+body {
+  background-color: cyan;
+}
