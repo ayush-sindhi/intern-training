@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+button {
+  border: 5px double black;
+  border-radius: 50%;
+}
+.a {
+  background-color: white;
+}
+.new1 {
+  background-color: red;
+}
+.new2 {
+  background-color: blue;
+}
+.new3 {
+  background-color: orange;
+}
+#orange {
+  background-color: orange;
+  font-size: 2rem;
+  margin: 20px;
+  justify-content: center;
+  width: 150px;
+}
+#blue {
+  background-color: blue;
+  font-size: 2rem;
+  margin: 20px;
+  justify-content: center;
+  width: 150px;
+}
+#red {
+  justify-content: center;
+  width: 150px;
+  background-color: red;
+  font-size: 2rem;
+  margin: 20px;
+}
