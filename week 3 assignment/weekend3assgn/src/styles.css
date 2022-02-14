@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("src\assets\images\bg-intro-desktop.png");
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+  }
+  @media screen and (max-width: 768px) {
+    body {
+      background-image: url("src\assets\images\bg-intro-mobile.png");
+    }
+  }
