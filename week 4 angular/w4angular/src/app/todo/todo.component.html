@@ -1,0 +1,15 @@
+<div class="box">
+    <div class="inner">
+        <form class="add">
+            <input type="text" name="task1" [(ngModel)]="task1">
+            <button id="one" type="submit" (click)="addTask()">Add Task +</button>
+        
+            
+            <ol *ngFor="let item of task">
+                <li>{{item.task}}
+                <button id="two" (click)="deleteTask(item.id)" >Delete</button></li>
+            </ol>
+        </form>
+        
+    </div>
+</div>

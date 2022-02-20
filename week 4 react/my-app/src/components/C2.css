@@ -1,0 +1,6 @@
+.oo{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    background-image: url(/src/images/hero-desktop.jpg);
+}

@@ -1,0 +1,10 @@
+/* #root{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-color: lightgray;
+    height: 500px
+} */
+#root{
+    align-items: center;
+}

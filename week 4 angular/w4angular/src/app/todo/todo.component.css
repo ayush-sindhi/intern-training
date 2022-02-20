@@ -1,0 +1,12 @@
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#one{
+    background-color: blue;
+}
+#two{
+    background-color: red;
+}

@@ -1,0 +1,15 @@
+.cart{
+   
+    position:fixed;
+    top: 2;
+    right: 0;
+    z-index: 1;
+    width: 40vw;
+    overflow-y:scroll;
+    height: 80vh;
+    
+    
+   }
+.display{
+    display: none;
+}
