@@ -1,10 +1,10 @@
-import Cards from "./cards/Cards";
+import Plays from "./plays/Plays";
 
 
 function App() {
   return (
     <>
-      <Cards />
+      <Plays />
     </>
   );
 }
